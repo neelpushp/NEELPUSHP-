@@ -1,1 +1,1209 @@
-# NEELPUSHP-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.4.2.3 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		pre { background: transparent }
+		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
+		pre.cjk { font-family: "NSimSun", monospace; font-size: 10pt }
+		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre class="western">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;NEEL PUSHP — Butterfly Pea Flower Powder&lt;/title&gt;
+&lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot;&gt;
+&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;style&gt;
+  :root{
+    --white:#FFFFFF;
+    --off-white:#FAFBFD;
+    --sky:#BFE0F7;
+    --sky-deep:#8FC6EF;
+    --sky-pale:#EAF5FD;
+    --ink:#111111;
+    --grey:#6E7075;
+    --line:#E7EEF4;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Work Sans', sans-serif;
+    background:var(--white);
+    color:var(--ink);
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.display{ font-family:'Cormorant Garamond', serif; letter-spacing:0.01em; font-weight:500; }
+  a{color:inherit;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:1200px; margin:0 auto; padding:0 32px;}
+  ::selection{background:var(--sky); color:var(--ink);}
+  button{font-family:'Work Sans', sans-serif;}
+
+  /* scroll reveal */
+  .reveal{opacity:0; transform:translateY(28px); transition:opacity .7s ease, transform .7s ease;}
+  .reveal.in{opacity:1; transform:translateY(0);}
+  .reveal-l{opacity:0; transform:translateX(-32px); transition:opacity .7s ease, transform .7s ease;}
+  .reveal-l.in{opacity:1; transform:translateX(0);}
+  .reveal-r{opacity:0; transform:translateX(32px); transition:opacity .7s ease, transform .7s ease;}
+  .reveal-r.in{opacity:1; transform:translateX(0);}
+  @media (prefers-reduced-motion:reduce){
+    .reveal,.reveal-l,.reveal-r{opacity:1; transform:none; transition:none;}
+  }
+
+  /* solid icon system */
+  .icon-sq{
+    width:44px; height:44px; background:var(--ink); border-radius:3px;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .icon-sq svg{width:22px; height:22px; fill:none; stroke:var(--white); stroke-width:1.6;}
+
+  /* NAV */
+  nav{ position:sticky; top:0; z-index:60; background:rgba(255,255,255,0.94); backdrop-filter:blur(10px); border-bottom:1px solid var(--line); }
+  nav .wrap{display:flex; align-items:center; justify-content:space-between; padding:20px 32px;}
+  .brand{
+    font-family:'Cormorant Garamond', serif; font-weight:600; font-size:23px;
+    letter-spacing:0.16em; text-transform:uppercase; white-space:nowrap;
+  }
+  nav ul{list-style:none; display:flex; gap:32px; font-size:12px; letter-spacing:0.06em; text-transform:uppercase;}
+  nav a{text-decoration:none; opacity:0.75; transition:opacity .2s;}
+  nav a:hover{opacity:1;}
+  .nav-right{display:flex; align-items:center; gap:16px;}
+  .icon-btn{ position:relative; background:none; border:none; cursor:pointer; width:24px; height:24px; padding:0; display:flex; align-items:center; justify-content:center; }
+  .icon-btn svg{width:22px; height:22px; stroke:var(--ink); fill:none; stroke-width:1.6;}
+  .icon-btn.wishlist.active svg{fill:var(--ink);}
+
+  /* trust badges */
+  .badges-strip{background:var(--white); border-bottom:1px solid var(--line);}
+  .badges-row{display:flex; justify-content:center; flex-wrap:wrap; gap:38px; padding:22px 0;}
+  .badge-item{display:flex; align-items:center; gap:10px; font-size:12.5px; color:var(--grey); letter-spacing:0.02em;}
+  .badge-item .icon-sq{width:30px; height:30px;}
+  .badge-item .icon-sq svg{width:15px; height:15px;}
+    /* size selector */
+  .size-row{display:flex; gap:10px; margin-bottom:18px;}
+  .size-btn{ flex:1; border:1px solid var(--line); background:var(--white); padding:12px 6px; text-align:center; cursor:pointer; transition:border-color .2s, background .2s; }
+  .size-btn .sz{font-size:13.5px; font-weight:500;}
+  .size-btn .pr{display:block; font-size:12px; color:var(--grey); margin-top:2px;}
+  .size-btn.active{border-color:var(--ink); background:var(--sky-pale);}
+  .bulk-hint{font-size:12px; color:#2E7D50; margin-top:-8px; margin-bottom:18px;}
+  .info-line{display:flex; align-items:flex-start; gap:10px; font-size:12.5px; color:var(--grey); margin-bottom:8px;}
+  .info-line svg{width:15px; height:15px; stroke:var(--ink); fill:none; stroke-width:1.6; flex-shrink:0; margin-top:1px;}
+  .product-actions-row{display:flex; align-items:center; gap:16px; margin-bottom:18px;}
+
+  /* payment options in modal */
+  .pay-row{display:flex; gap:10px; margin-bottom:6px;}
+  .pay-option{flex:1; border:1px solid var(--line); padding:12px; text-align:center; cursor:pointer; font-size:13px;}
+  .pay-option.active{border-color:var(--ink); background:var(--sky-pale);}
+
+  /* sticky mobile buy bar */
+  .sticky-bar{
+    position:fixed; left:0; right:0; bottom:0; z-index:70; background:var(--white); border-top:1px solid var(--line);
+    padding:12px 18px; display:none; align-items:center; justify-content:space-between; gap:14px;
+    box-shadow:0 -6px 20px rgba(17,17,17,0.08); transform:translateY(100%); transition:transform .3s ease;
+  }
+  .sticky-bar.show{transform:translateY(0);}
+  .sticky-bar .sb-price{font-family:'Cormorant Garamond', serif; font-size:19px;}
+  .sticky-bar .sb-price span{display:block; font-size:10.5px; color:var(--grey); font-family:'Work Sans',sans-serif;}
+  @media (min-width:901px){ .sticky-bar{display:none !important;} }
+  @media (max-width:900px){ .sticky-bar{display:flex;} body{padding-bottom:76px;} }
+
+  /* toast */
+  .toast{
+    position:fixed; left:50%; bottom:90px; transform:translate(-50%, 20px); background:var(--ink); color:var(--white);
+    padding:12px 22px; font-size:13px; border-radius:3px; z-index:300; opacity:0; pointer-events:none; transition:opacity .25s ease, transform .25s ease;
+  }
+  .toast.show{opacity:1; transform:translate(-50%, 0);}
+
+  /* floating whatsapp chat (general questions) */
+  .wa-float{
+    position:fixed; bottom:24px; right:24px; z-index:65; background:#25D366; color:#fff; width:54px; height:54px;
+    border-radius:50%; display:flex; align-items:center; justify-content:center; text-decoration:none;
+    box-shadow:0 8px 22px rgba(0,0,0,0.25);
+  }
+  .wa-float svg{width:26px; height:26px; fill:#fff;}
+  @media (max-width:900px){ .wa-float{bottom:88px;} }
+  .cart-btn{ position:relative; background:none; border:none; cursor:pointer; width:26px; height:26px; }
+  .cart-btn svg{width:24px; height:24px; stroke:var(--ink); fill:none; stroke-width:1.6;}
+  .cart-badge{
+    position:absolute; top:-6px; right:-8px; background:var(--ink); color:var(--white);
+    font-size:10px; width:16px; height:16px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+  }
+  .buy-now-btn{ background:var(--ink); color:var(--white); padding:11px 24px; border:none; font-size:12px; letter-spacing:0.1em; text-transform:uppercase; cursor:pointer; transition:background .2s; }
+  .buy-now-btn:hover{background:#000;}
+  .buy-now-btn.outline{ background:transparent; color:var(--ink); border:1px solid var(--ink); }
+
+  /* HERO */
+  .hero{ background:linear-gradient(180deg, var(--off-white) 0%, var(--sky) 150%); padding:76px 0 60px; text-align:center; }
+  .hero .eyebrow{ font-size:11px; letter-spacing:0.26em; text-transform:uppercase; color:var(--grey); margin-bottom:18px; }
+  .hero h1{ font-size:clamp(42px,7vw,78px); line-height:1.02; margin-bottom:18px; }
+  .hero p.lede{ font-size:15.5px; line-height:1.7; color:var(--grey); max-width:460px; margin:0 auto 28px; }
+  .hero-image{ max-width:440px; margin:0 auto 28px; }
+  .hero-price{ font-family:'Cormorant Garamond', serif; font-size:22px; font-weight:600; font-style:italic; letter-spacing:0.02em; margin-bottom:20px; }
+
+  /* SECTION */
+  .section{padding:74px 0;}
+  .section-head{max-width:600px; margin:0 auto 44px; text-align:center;}
+  .section-eyebrow{ font-size:11px; letter-spacing:0.22em; text-transform:uppercase; color:var(--grey); margin-bottom:14px; }
+  .section-head h2{font-size:clamp(28px,3.6vw,40px); line-height:1.12;}
+  .section-head p{color:var(--grey); font-size:15px; margin-top:14px; line-height:1.7;}
+
+  /* ABOUT / STORY (alternating) */
+  .story-row{ display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center; }
+  .story-row + .story-row{margin-top:64px;}
+  .story-row.rev .story-img{order:2;}
+  .story-row.rev .story-text{order:1;}
+  .story-img img{ border-radius:2px; width:100%; }
+  .story-text .section-eyebrow{text-align:left;}
+  .story-text h2{text-align:left; margin-bottom:16px;}
+  .story-text p{color:var(--grey); font-size:15px; line-height:1.85;}
+
+  /* QUICK BENEFITS STRIP */
+  .benefits-section{background:var(--off-white);}
+  .benefit-carousel{display:flex; align-items:center; gap:16px; max-width:820px; margin:0 auto;}
+  .bc-viewport{flex:1; overflow:hidden;}
+  .bc-track{display:flex; transition:transform .55s cubic-bezier(.4,0,.2,1); cursor:grab;}
+  .bc-track.dragging{transition:none; cursor:grabbing;}
+  .bc-slide{
+    flex:0 0 100%; background:var(--white); border:1px solid var(--line); padding:48px 40px;
+    text-align:center; display:flex; flex-direction:column; align-items:center; min-height:220px; justify-content:center;
+    user-select:none;
+  }
+  .bc-slide .icon-sq{width:52px; height:52px; margin-bottom:22px;}
+  .bc-slide .icon-sq svg{width:26px; height:26px;}
+  .bc-slide h4{font-family:'Cormorant Garamond', serif; font-size:22px; margin-bottom:10px; font-weight:600;}
+  .bc-slide p{font-size:14px; color:var(--grey); line-height:1.7; max-width:420px;}
+  .bc-arrow{
+    width:38px; height:38px; border-radius:50%; border:1px solid var(--ink); background:var(--white);
+    font-size:20px; cursor:pointer; flex-shrink:0; display:flex; align-items:center; justify-content:center;
+    transition:background .2s, color .2s;
+  }
+  .bc-arrow:hover{background:var(--ink); color:var(--white);}
+  .bc-dots{display:flex; justify-content:center; gap:8px; margin-top:24px;}
+  .bc-dot{width:7px; height:7px; border-radius:50%; background:var(--line); border:none; cursor:pointer; padding:0; transition:background .2s, transform .2s;}
+  .bc-dot.active{background:var(--ink); transform:scale(1.3);}
+  @media (max-width:640px){
+    .bc-slide{padding:36px 22px;}
+  }
+  .benefits-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:0; border-top:1px solid var(--line); border-left:1px solid var(--line);}
+  .benefit-card{ padding:36px 26px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); background:var(--white); }
+  .benefit-card .icon-sq{margin-bottom:20px;}
+  .benefit-card h4{font-family:'Cormorant Garamond', serif; font-size:18px; margin-bottom:8px; font-weight:600;}
+  .benefit-card p{font-size:13px; color:var(--grey); line-height:1.65;}
+
+  /* SCIENCE STORY ROWS (image left/right alternating, larger) */
+  .science-section .story-row{align-items:center;}
+  .science-tag{
+    display:inline-block; font-size:10.5px; letter-spacing:0.1em; text-transform:uppercase;
+    background:var(--sky-pale); color:var(--ink); padding:5px 12px; border-radius:2px; margin-bottom:14px;
+  }
+
+  /* PRODUCT */
+  .product-grid{display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:flex-start;}
+  .product-media img{ width:100%; border-radius:2px; }
+  .pc-carousel{position:relative;}
+  .pc-viewport{overflow:hidden; border-radius:2px;}
+  .pc-track{display:flex; transition:transform .5s cubic-bezier(.4,0,.2,1); cursor:grab;}
+  .pc-track.dragging{transition:none; cursor:grabbing;}
+  .pc-track img{flex:0 0 100%; width:100%; aspect-ratio:1/1; object-fit:cover; user-select:none; -webkit-user-drag:none;}
+  .pc-arrow{
+    position:absolute; top:50%; transform:translateY(-50%); width:38px; height:38px; border-radius:50%;
+    border:1px solid var(--ink); background:rgba(255,255,255,0.9); font-size:20px; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; transition:background .2s, color .2s;
+  }
+  .pc-arrow:hover{background:var(--ink); color:var(--white);}
+  .pc-prev{left:12px;}
+  .pc-next{right:12px;}
+  .pc-dots{display:flex; justify-content:center; gap:8px; margin:12px 0;}
+  .pc-dot{width:7px; height:7px; border-radius:50%; background:var(--line); border:none; cursor:pointer; padding:0; transition:background .2s, transform .2s;}
+  .pc-dot.active{background:var(--ink); transform:scale(1.3);}
+  .gallery-strip{display:grid; grid-template-columns:repeat(5,1fr); gap:6px; margin-top:8px;}
+  .gallery-strip img{ aspect-ratio:1/1; object-fit:cover; cursor:pointer; opacity:0.6; transition:opacity .2s, outline .2s; outline:1px solid transparent; }
+  .gallery-strip img:hover, .gallery-strip img.active{opacity:1; outline:1px solid var(--ink);}
+  .product-info .section-eyebrow{text-align:left; margin-bottom:12px;}
+  .product-info h2{text-align:left; font-size:clamp(26px,3.2vw,34px); margin-bottom:14px;}
+  .product-info .price{
+    font-family:'Cormorant Garamond', serif; font-size:38px; font-weight:600; font-style:italic;
+    margin-bottom:18px; color:var(--ink); letter-spacing:0.01em; position:relative; display:inline-block;
+    padding-bottom:10px;
+  }
+  .product-info .price::after{ content:''; position:absolute; left:0; bottom:0; width:46px; height:2px; background:var(--sky-deep); }
+  .product-info .price span{font-size:12.5px; color:var(--grey); font-family:'Work Sans',sans-serif; font-style:normal; letter-spacing:0.02em; margin-left:8px;}
+  .product-info p.desc{font-size:14.5px; line-height:1.75; color:var(--grey); margin-bottom:22px;}
+  .spec-list{list-style:none; margin-bottom:26px; border-top:1px solid var(--line);}
+  .spec-list li{ display:flex; justify-content:space-between; padding:12px 0; border-bottom:1px solid var(--line); font-size:13px; }
+  .spec-list li span:first-child{color:var(--grey); letter-spacing:0.04em; text-transform:uppercase; font-size:11px;}
+  .qty-row{display:flex; align-items:center; gap:14px; margin-bottom:20px;}
+  .qty-box{display:flex; align-items:center; border:1px solid var(--ink);}
+  .qty-box button{background:none; border:none; padding:9px 15px; font-size:16px; cursor:pointer;}
+  .qty-box span{padding:0 4px; min-width:22px; text-align:center; font-size:13.5px;}
+  .btn-row{display:flex; gap:12px;}
+  .buy-now-full, .cart-add-btn{
+    flex:1; border:none; padding:17px; font-size:12.5px; letter-spacing:0.12em; text-transform:uppercase; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; gap:10px; transition:background .2s, color .2s;
+  }
+  .buy-now-full{background:var(--ink); color:var(--white);}
+  .buy-now-full:hover{background:#000;}
+  .cart-add-btn{background:var(--white); color:var(--ink); border:1px solid var(--ink);}
+  .cart-add-btn:hover{background:var(--ink); color:var(--white);}
+  .arrow{width:14px; height:1px; background:currentColor; position:relative;}
+  .arrow::after{content:''; position:absolute; right:0; top:-3px; width:6px; height:6px; border-top:1px solid currentColor; border-right:1px solid currentColor; transform:rotate(45deg);}
+    /* HOT / COLD TABS */
+  .hc-section{background:var(--sky);}
+  .hc-tabs{display:flex; gap:0; max-width:360px; margin:0 auto 40px; border:1px solid var(--ink);}
+  .hc-tab{ flex:1; padding:14px; background:transparent; border:none; cursor:pointer; font-size:12.5px; letter-spacing:0.12em; text-transform:uppercase; color:var(--ink); transition:background .2s, color .2s; }
+  .hc-tab.active{background:var(--ink); color:var(--white);}
+  .hc-panel{display:none; grid-template-columns:1fr 1fr; gap:50px; align-items:center;}
+  .hc-panel.active{display:grid;}
+  .hc-panel img{width:100%; border-radius:2px;}
+  .hc-panel h3{font-size:26px; margin-bottom:14px;}
+  .hc-panel p{color:var(--grey); font-size:14.5px; line-height:1.8; margin-bottom:10px;}
+  .hc-steps{list-style:none; counter-reset:step;}
+  .hc-steps li{ counter-increment:step; font-size:14px; color:var(--ink); padding:10px 0 10px 32px; position:relative; border-bottom:1px solid rgba(17,17,17,0.1); }
+  .hc-steps li::before{ content:counter(step); position:absolute; left:0; top:9px; width:20px; height:20px; background:var(--ink); color:var(--white); font-size:11px; border-radius:50%; display:flex; align-items:center; justify-content:center; }
+
+  /* TESTIMONIALS */
+  .testi-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:26px;}
+  .testi-card{ background:var(--off-white); padding:32px 28px; border:1px solid var(--line); }
+  .testi-stars{color:var(--sky-deep); font-size:14px; margin-bottom:16px; letter-spacing:2px;}
+  .testi-card p{font-size:14px; color:var(--ink); line-height:1.75; margin-bottom:22px;}
+  .testi-person{display:flex; align-items:center; gap:12px;}
+  .testi-avatar{ width:38px; height:38px; border-radius:50%; background:var(--sky-deep); color:var(--white); display:flex; align-items:center; justify-content:center; font-family:'Cormorant Garamond',serif; font-size:15px; font-weight:600; }
+  .testi-person div span{display:block;}
+  .testi-name{font-size:13.5px; font-weight:500;}
+  .testi-loc{font-size:11.5px; color:var(--grey);}
+
+  /* FAQ */
+  .faq-section{background:var(--off-white);}
+  .faq-list{max-width:760px; margin:0 auto;}
+  .faq-item{border-bottom:1px solid var(--line);}
+  .faq-q{ width:100%; text-align:left; background:none; border:none; padding:22px 4px; font-size:16px; font-family:'Cormorant Garamond', serif; cursor:pointer; display:flex; justify-content:space-between; align-items:center; }
+  .faq-q .plus{width:16px; height:16px; position:relative; flex-shrink:0;}
+  .faq-q .plus::before, .faq-q .plus::after{content:''; position:absolute; background:var(--ink); transition:transform .25s;}
+  .faq-q .plus::before{top:7px; left:0; width:16px; height:2px;}
+  .faq-q .plus::after{top:0; left:7px; width:2px; height:16px;}
+  .faq-item.open .plus::after{transform:rotate(90deg); opacity:0;}
+  .faq-a{max-height:0; overflow:hidden; transition:max-height .3s ease;}
+  .faq-a p{font-size:14px; color:var(--grey); line-height:1.75; padding:0 4px 22px;}
+
+  /* CTA STRIP */
+  .cta-strip{ background:var(--ink); color:var(--white); text-align:center; padding:80px 0; }
+  .cta-strip h2{color:var(--white); font-size:clamp(28px,4.2vw,42px); margin-bottom:18px;}
+  .cta-strip p{color:rgba(255,255,255,0.65); font-size:14.5px; margin-bottom:30px;}
+
+  /* FOOTER */
+  footer{background:var(--white); border-top:1px solid var(--line); padding:50px 0 26px;}
+  .footer-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr 1fr; gap:40px; margin-bottom:36px;}
+  footer .brand{margin-bottom:14px;}
+  footer p.tag{font-size:13px; color:var(--grey); max-width:260px; line-height:1.7;}
+  footer h5{font-size:11px; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:16px; color:var(--ink);}
+  footer ul{list-style:none;}
+  footer li{margin-bottom:10px; font-size:13px;}
+  footer a{text-decoration:none; color:var(--grey);}
+  footer a:hover{color:var(--ink);}
+  .footer-bottom{border-top:1px solid var(--line); padding-top:20px; display:flex; justify-content:space-between; font-size:11px; color:var(--grey);}
+
+  /* MODALS (order + cart) */
+  .modal-overlay{ position:fixed; inset:0; background:rgba(17,17,17,0.55); z-index:200; display:none; align-items:center; justify-content:center; padding:20px; }
+  .modal-overlay.open{display:flex;}
+  .modal-box{ background:var(--white); width:100%; max-width:440px; padding:40px 34px; position:relative; max-height:90vh; overflow-y:auto; }
+  .modal-close{ position:absolute; top:18px; right:18px; width:26px; height:26px; border:1px solid var(--ink); background:none; cursor:pointer; display:flex; align-items:center; justify-content:center; }
+  .modal-close::before{content:'\2715'; font-size:11px;}
+  .modal-box h3{font-size:24px; margin-bottom:6px;}
+  .modal-box .sub{font-size:12.5px; color:var(--grey); margin-bottom:22px;}
+  .field{margin-bottom:16px;}
+  .field label{display:block; font-size:10.5px; letter-spacing:0.08em; text-transform:uppercase; color:var(--grey); margin-bottom:7px;}
+  .field input, .field textarea, .field select{ width:100%; padding:11px 0; border:none; border-bottom:1px solid var(--ink); font-size:14px; background:transparent; }
+  .field input:focus, .field textarea:focus, .field select:focus{outline:none; border-bottom:1px solid var(--sky-deep);}
+  .field textarea{resize:vertical; min-height:52px;}
+  .field-row{display:grid; grid-template-columns:1fr 1fr; gap:14px;}
+  .field.readonly input{color:var(--grey); border-bottom-style:dashed;}
+  .pincode-status{font-size:11px; color:var(--grey); margin-top:6px; min-height:14px;}
+  .pincode-status.ok{color:#2E7D50;}
+  .pincode-status.err{color:#C0453D;}
+  .modal-summary{ display:flex; justify-content:space-between; padding:14px 0; border-top:1px solid var(--line); margin:16px 0; font-size:13px; }
+  .modal-summary b{font-family:'Cormorant Garamond', serif; font-size:18px;}
+  .required-hint{color:#C0453D; font-size:11.5px; margin-top:-6px; margin-bottom:12px; display:none;}
+  .cart-line{display:flex; justify-content:space-between; align-items:center; padding:14px 0; border-bottom:1px solid var(--line); font-size:13.5px;}
+  .cart-empty{font-size:13.5px; color:var(--grey); padding:20px 0;}
+
+  @media (max-width:900px){
+    nav ul{display:none;}
+    .brand{font-size:19px; letter-spacing:0.1em;}
+    .story-row{grid-template-columns:1fr; gap:26px;}
+    .story-row.rev .story-img{order:1;}
+    .story-row.rev .story-text{order:2;}
+    .benefits-grid{grid-template-columns:repeat(2,1fr);}
+    .product-grid{grid-template-columns:1fr; gap:30px;}
+    .hc-panel{grid-template-columns:1fr; gap:24px;}
+    .hc-panel.active{display:grid;}
+    .testi-grid{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr 1fr; row-gap:26px;}
+  }
+  @media (max-width:360px){
+    .brand{font-size:16px; letter-spacing:0.06em;}
+  }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;nav&gt;
+  &lt;div class=&quot;wrap&quot;&gt;
+    &lt;div class=&quot;brand&quot;&gt;Neel Pushp&lt;/div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;Story&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#science&quot;&gt;Benefits&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#product&quot;&gt;Product&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#usage&quot;&gt;Hot/Cold&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#reviews&quot;&gt;Reviews&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#faq&quot;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class=&quot;nav-right&quot;&gt;
+      &lt;button class=&quot;cart-btn&quot; onclick=&quot;openCart()&quot; aria-label=&quot;Cart&quot;&gt;
+        &lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M3 4h2l2.2 12.2A2 2 0 0 0 9.2 18H18a2 2 0 0 0 2-1.6L21.5 8H6&quot;/&gt;&lt;circle cx=&quot;9.5&quot; cy=&quot;21&quot; r=&quot;1.2&quot; fill=&quot;currentColor&quot; stroke=&quot;none&quot;/&gt;&lt;circle cx=&quot;17.5&quot; cy=&quot;21&quot; r=&quot;1.2&quot; fill=&quot;currentColor&quot; stroke=&quot;none&quot;/&gt;&lt;/svg&gt;
+        &lt;span class=&quot;cart-badge&quot; id=&quot;cartBadge&quot;&gt;0&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;button class=&quot;buy-now-btn&quot; onclick=&quot;openModal()&quot;&gt;Buy Now&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;!-- HERO --&gt;
+&lt;section class=&quot;hero&quot; id=&quot;home&quot;&gt;
+  &lt;div class=&quot;wrap&quot;&gt;
+    &lt;div class=&quot;eyebrow reveal&quot;&gt;Pure · Sun-Dried · Single Origin&lt;/div&gt;
+    &lt;h1 class=&quot;reveal&quot;&gt;Neel Pushp&lt;/h1&gt;
+    &lt;p class=&quot;lede reveal&quot;&gt;Butterfly Pea Flower Powder. One flower, stone-milled to a fine indigo powder — for tea, milk, rice and everything you want to colour naturally.&lt;/p&gt;
+    &lt;div class=&quot;hero-image reveal&quot;&gt;
+      &lt;img src=&quot;https://i.postimg.cc/Cx03NQTs/Picsart-25-08-14-16-09-09-203.jpg&quot; alt=&quot;Neel Pushp Butterfly Pea Flower Powder&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;hero-price reveal&quot;&gt;₹398 — 100g&lt;/div&gt;
+    &lt;button class=&quot;buy-now-btn reveal&quot; onclick=&quot;openModal()&quot;&gt;Buy Now&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- STORY --&gt;
+&lt;section class=&quot;section&quot; id=&quot;about&quot;&gt;
+  &lt;div class=&quot;wrap&quot;&gt;
+    &lt;div class=&quot;section-head reveal&quot;&gt;
+      &lt;div class=&quot;section-eyebrow&quot;&gt;Our Story&lt;/div&gt;
+      &lt;h2&gt;Petals, not pigments.&lt;/h2&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;story-row&quot;&gt;
+      &lt;div class=&quot;story-img reveal-l&quot;&gt;&lt;img src=&quot;https://plain-apac-prod-public.komododecks.com/202607/19/vaxbLjl7iZWk2ZpRr2By/image.jpg&quot; alt=&quot;Butterfly pea flower harvest&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;story-text reveal-r&quot;&gt;
+        &lt;div class=&quot;section-eyebrow&quot;&gt;Where It Begins&lt;/div&gt;
+        &lt;h2&gt;Grown in small farms, picked by hand.&lt;/h2&gt;
+        &lt;p&gt;Neel Pushp started with one question — why does natural blue always come from a bottle? We went looking for the flower itself: Clitoria ternatea, the butterfly pea, grown across small farms and picked at first light when its colour is deepest.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;story-row rev&quot;&gt;
+      &lt;div class=&quot;story-img reveal-r&quot;&gt;&lt;img src=&quot;https://plain-apac-prod-public.komododecks.com/202607/19/lqRExstL7AtvbIofz83M/image.jpg&quot; alt=&quot;Butterfly pea flowers sun-drying&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;story-text reveal-l&quot;&gt;
+        &lt;div class=&quot;section-eyebrow&quot;&gt;Dried, Not Processed&lt;/div&gt;
+        &lt;h2&gt;Sun-dried and stone-milled, nothing else.&lt;/h2&gt;
+        &lt;p&gt;Every batch is sun-dried slowly to hold on to its colour and aroma, then stone-milled into a fine powder. No bleaching, no additives, no shortcuts — just the flower, ground close to how it grew.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;story-row&quot;&gt;
+      &lt;div class=&quot;story-img reveal-l&quot;&gt;&lt;img src=&quot;https://plain-apac-prod-public.komododecks.com/202607/19/6b9HNON8f0rhxs8D43Tz/image.jpg&quot; alt=&quot;Neel Pushp powder packed&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;story-text reveal-r&quot;&gt;
+        &lt;div class=&quot;section-eyebrow&quot;&gt;Packed in Small Runs&lt;/div&gt;
+        &lt;h2&gt;From farm to pouch, in small batches.&lt;/h2&gt;
+        &lt;p&gt;We pack in small quantities so every pouch is close to fresh — sorted by hand, sealed airtight, and sent out without sitting in a warehouse for months.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- QUICK BENEFITS --&gt;
+&lt;section class=&quot;benefits-section&quot; id=&quot;quick-benefits&quot;&gt;
+  &lt;div class=&quot;wrap&quot; style=&quot;padding-top:74px; padding-bottom:74px;&quot;&gt;
+    &lt;div class=&quot;section-head reveal&quot;&gt;
+      &lt;div class=&quot;section-eyebrow&quot;&gt;At a Glance&lt;/div&gt;
+      &lt;h2&gt;One flower, many uses.&lt;/h2&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;benefit-carousel reveal&quot;&gt;
+      &lt;button class=&quot;bc-arrow bc-prev&quot; onclick=&quot;benefitPrev()&quot; aria-label=&quot;Previous&quot;&gt;‹&lt;/button&gt;
+      &lt;div class=&quot;bc-viewport&quot; id=&quot;benefitViewport&quot;&gt;
+        &lt;div class=&quot;bc-track&quot; id=&quot;benefitTrack&quot;&gt;
+          &lt;div class=&quot;bc-slide&quot;&gt;
+            &lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M4 20c8 0 14-6 16-16-10 2-16 8-16 16Z&quot;/&gt;&lt;path d=&quot;M4 20c4-6 8-9 13-11&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+            &lt;h4&gt;Natural Colour&lt;/h4&gt;&lt;p&gt;A plant-based blue for drinks, rice, cakes and desserts — no artificial dye.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;bc-slide&quot;&gt;
+            &lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M12 3c3 4 6 7.5 6 11a6 6 0 0 1-12 0c0-3.5 3-7 6-11Z&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+            &lt;h4&gt;Rich in Antioxidants&lt;/h4&gt;&lt;p&gt;High in anthocyanins, the same pigment family found in blueberries and grapes.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;bc-slide&quot;&gt;
+            &lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M4 10h13a3 3 0 0 1 0 6H6a2 2 0 0 1-2-2v-4Z&quot;/&gt;&lt;path d=&quot;M8 10V6M11 10V6&quot; stroke-linecap=&quot;round&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+            &lt;h4&gt;Calming Herbal Tea&lt;/h4&gt;&lt;p&gt;Caffeine-free, traditionally taken to unwind at the end of the day.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;bc-slide&quot;&gt;
+            &lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M12 2v6M12 16v6M2 12h6M16 12h6M5 5l4 4M15 15l4 4M19 5l-4 4M9 15l-4 4&quot; stroke-linecap=&quot;round&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+            &lt;h4&gt;The Colour Switch&lt;/h4&gt;&lt;p&gt;Add lemon and watch it shift from blue to violet-pink — a natural reaction.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;bc-slide&quot;&gt;
+            &lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M12 3 3 8v3c0 5 4 8.5 9 10 5-1.5 9-5 9-10V8l-9-5Z&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+            &lt;h4&gt;Vegan &amp; Preservative-Free&lt;/h4&gt;&lt;p&gt;Nothing from an animal, nothing artificial to keep it &quot;fresh&quot; — just dried flower.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;bc-slide&quot;&gt;
+            &lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;circle cx=&quot;8&quot; cy=&quot;8&quot; r=&quot;3&quot;/&gt;&lt;circle cx=&quot;16&quot; cy=&quot;8&quot; r=&quot;3&quot;/&gt;&lt;circle cx=&quot;12&quot; cy=&quot;17&quot; r=&quot;3&quot;/&gt;&lt;path d=&quot;M10 10l1.2 4.5M14 10l-1.2 4.5&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+            &lt;h4&gt;Rich in Flavonoids&lt;/h4&gt;&lt;p&gt;A wider family of plant compounds alongside anthocyanins, studied for their role in everyday wellness.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;bc-slide&quot;&gt;
+            &lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6 3v8a3 3 0 0 0 6 0V3M9 11v10M17 3v7c0 2-2 3-2 3v8&quot; stroke-linecap=&quot;round&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+            &lt;h4&gt;Versatile in the Kitchen&lt;/h4&gt;&lt;p&gt;Tea, milk, rice, batter, mocktails — one pouch works across your whole recipe list.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;bc-slide&quot;&gt;
+            &lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M4 10h13a3 3 0 0 1 0 6H6a2 2 0 0 1-2-2v-4Z&quot;/&gt;&lt;path d=&quot;M8 10V6M11 10V6&quot; stroke-linecap=&quot;round&quot;/&gt;&lt;path d=&quot;M3 20l18-16&quot; stroke-linecap=&quot;round&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+            &lt;h4&gt;100% Caffeine-Free&lt;/h4&gt;&lt;p&gt;No caffeine at all — safe to sip morning, noon or night, without disturbing your sleep.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;bc-slide&quot;&gt;
+            &lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;circle cx=&quot;12&quot; cy=&quot;12&quot; r=&quot;4&quot;/&gt;&lt;path d=&quot;M12 2v3M12 19v3M4.2 4.2l2 2M17.8 17.8l2 2M2 12h3M19 12h3M4.2 19.8l2-2M17.8 6.2l2-2&quot; stroke-linecap=&quot;round&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+            &lt;h4&gt;Glowing Skin&lt;/h4&gt;&lt;p&gt;In Ayurveda, butterfly pea is traditionally linked to fresh, glowing skin when taken as a daily tea.&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;bc-slide&quot;&gt;
+            &lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M6 21c0-7 2-11 2-15M10 21c0-6 1.5-10 1.5-15M14 21c0-5 1.5-9 1.5-15M18 21c0-4 1-8 1-15&quot; stroke-linecap=&quot;round&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;
+            &lt;h4&gt;Healthy Hair Growth&lt;/h4&gt;&lt;p&gt;Traditionally used in hair oils and rinses, believed to support stronger, shinier hair over time.&lt;/p&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;button class=&quot;bc-arrow bc-next&quot; onclick=&quot;benefitNext()&quot; aria-label=&quot;Next&quot;&gt;›&lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;bc-dots&quot; id=&quot;benefitDots&quot;&gt;&lt;/div&gt;
+    &lt;p style=&quot;text-align:center; font-size:11.5px; color:var(--grey); margin-top:8px;&quot;&gt;Skin, hair and wellness points are traditional uses, not medical claims.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- SCIENCE-BACKED STORY --&gt;
+&lt;section class=&quot;section science-section&quot; id=&quot;science&quot;&gt;
+  &lt;div class=&quot;wrap&quot;&gt;
+    &lt;div class=&quot;section-head reveal&quot;&gt;
+      &lt;div class=&quot;section-eyebrow&quot;&gt;Backed by Science&lt;/div&gt;
+      &lt;h2&gt;Why the blue is more than just colour.&lt;/h2&gt;
+      &lt;p&gt;Butterfly pea's deep indigo comes from anthocyanins, a group of plant pigments studied for their antioxidant activity. Here's what research and tradition, together, say about this flower.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;story-row&quot;&gt;
+      &lt;div class=&quot;story-img reveal-l&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/NFVnmd8m/Add-lemon-to-enhance-taste-1.jpg&quot; alt=&quot;Butterfly pea antioxidants&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;story-text reveal-r&quot;&gt;
+        &lt;span class=&quot;science-tag&quot;&gt;Antioxidant Activity&lt;/span&gt;
+        &lt;h2&gt;Anthocyanins, studied for their protective role.&lt;/h2&gt;
+        &lt;p&gt;The same pigment family that colours blueberries, purple cabbage and grapes is what gives butterfly pea its blue. Nutrition research has repeatedly looked at anthocyanins for their antioxidant activity — compounds that help the body manage oxidative stress.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;story-row rev&quot;&gt;
+      &lt;div class=&quot;story-img reveal-r&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/3J4VYH7B/HOT-COLD.png&quot; alt=&quot;Butterfly pea calming tea&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;story-text reveal-l&quot;&gt;
+        &lt;span class=&quot;science-tag&quot;&gt;Traditional Use&lt;/span&gt;
+        &lt;h2&gt;A calming cup, long before it was trending.&lt;/h2&gt;
+        &lt;p&gt;In Ayurveda and traditional Southeast Asian medicine, butterfly pea has long been brewed as a caffeine-free tea to wind down. It's naturally free of stimulants, which is part of why it's often reached for in the evening.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;story-row&quot;&gt;
+      &lt;div class=&quot;story-img reveal-l&quot;&gt;&lt;img src=&quot;https://i.postimg.cc/g0kf9L0w/Picsart-25-08-14-11-49-28-077.jpg&quot; alt=&quot;Butterfly pea natural colour&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;story-text reveal-r&quot;&gt;
+        &lt;span class=&quot;science-tag&quot;&gt;A Cleaner Ingredient List&lt;/span&gt;
+        &lt;h2&gt;One ingredient doing the work of a lab-made dye.&lt;/h2&gt;
+        &lt;p&gt;Where synthetic blue food colours rely on manufactured compounds, butterfly pea powder is simply a dried, ground flower — offering the same vivid colour with a shorter, more recognisable ingredient list.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p style=&quot;text-align:center; font-size:12px; color:var(--grey); margin-top:10px;&quot;&gt;These are general wellness notes, not medical claims. Please consult a doctor for any health condition.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- TRUST BADGES --&gt;
+&lt;div class=&quot;badges-strip&quot;&gt;
+  &lt;div class=&quot;wrap badges-row&quot;&gt;
+    &lt;div class=&quot;badge-item&quot;&gt;&lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M4 20c8 0 14-6 16-16-10 2-16 8-16 16Z&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;100% Natural&lt;/div&gt;
+    &lt;div class=&quot;badge-item&quot;&gt;&lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M4 12h16M4 12l4-4M4 12l4 4M20 12l-4-4M20 12l-4 4&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;Made in India&lt;/div&gt;
+    &lt;div class=&quot;badge-item&quot;&gt;&lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M20 7 9 18l-5-5&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;Quality Checked&lt;/div&gt;
+    &lt;div class=&quot;badge-item&quot;&gt;&lt;div class=&quot;icon-sq&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;rect x=&quot;4&quot; y=&quot;8&quot; width=&quot;16&quot; height=&quot;12&quot; rx=&quot;1&quot;/&gt;&lt;path d=&quot;M9 8V6a3 3 0 0 1 6 0v2&quot;/&gt;&lt;/svg&gt;&lt;/div&gt;Hygienically Packed&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- PRODUCT --&gt;
+&lt;section class=&quot;section&quot; id=&quot;product&quot; style=&quot;background:var(--off-white);&quot;&gt;
+  &lt;div class=&quot;wrap&quot;&gt;
+    &lt;div class=&quot;product-grid&quot;&gt;
+      &lt;div class=&quot;product-media reveal-l&quot;&gt;
+        &lt;div class=&quot;pc-carousel&quot;&gt;
+          &lt;div class=&quot;pc-viewport&quot; id=&quot;productViewport&quot;&gt;
+            &lt;div class=&quot;pc-track&quot; id=&quot;productTrack&quot;&gt;
+              &lt;img src=&quot;https://i.postimg.cc/Cx03NQTs/Picsart-25-08-14-16-09-09-203.jpg&quot; alt=&quot;Neel Pushp Butterfly Pea Flower Powder&quot;&gt;
+              &lt;img src=&quot;https://i.postimg.cc/g0kf9L0w/Picsart-25-08-14-11-49-28-077.jpg&quot; alt=&quot;Neel Pushp powder scoop&quot;&gt;
+              &lt;img src=&quot;https://i.postimg.cc/NFVnmd8m/Add-lemon-to-enhance-taste-1.jpg&quot; alt=&quot;Add lemon to butterfly pea tea&quot;&gt;
+              &lt;img src=&quot;https://i.postimg.cc/qqgYNPKp/Butterfly-pea-flower-tea.jpg&quot; alt=&quot;Butterfly pea flower tea&quot;&gt;
+              &lt;img src=&quot;https://i.postimg.cc/3J4VYH7B/HOT-COLD.png&quot; alt=&quot;Hot and cold butterfly pea&quot;&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;button class=&quot;pc-arrow pc-prev&quot; onclick=&quot;productPrev()&quot; aria-label=&quot;Previous image&quot;&gt;‹&lt;/button&gt;
+          &lt;button class=&quot;pc-arrow pc-next&quot; onclick=&quot;productNext()&quot; aria-label=&quot;Next image&quot;&gt;›&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;pc-dots&quot; id=&quot;productDots&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;gallery-strip&quot;&gt;
+          &lt;img src=&quot;https://i.postimg.cc/Cx03NQTs/Picsart-25-08-14-16-09-09-203.jpg&quot; class=&quot;active&quot; onclick=&quot;goToProduct(0)&quot;&gt;
+          &lt;img src=&quot;https://i.postimg.cc/g0kf9L0w/Picsart-25-08-14-11-49-28-077.jpg&quot; onclick=&quot;goToProduct(1)&quot;&gt;
+          &lt;img src=&quot;https://i.postimg.cc/NFVnmd8m/Add-lemon-to-enhance-taste-1.jpg&quot; onclick=&quot;goToProduct(2)&quot;&gt;
+          &lt;img src=&quot;https://i.postimg.cc/qqgYNPKp/Butterfly-pea-flower-tea.jpg&quot; onclick=&quot;goToProduct(3)&quot;&gt;
+          &lt;img src=&quot;https://i.postimg.cc/3J4VYH7B/HOT-COLD.png&quot; onclick=&quot;goToProduct(4)&quot;&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;product-info reveal-r&quot;&gt;
+        &lt;div class=&quot;product-actions-row&quot;&gt;
+          &lt;div class=&quot;section-eyebrow&quot; style=&quot;margin-bottom:0;&quot;&gt;The Product&lt;/div&gt;
+          &lt;button class=&quot;icon-btn wishlist&quot; id=&quot;wishlistBtn2&quot; onclick=&quot;toggleWishlist()&quot; aria-label=&quot;Save to wishlist&quot; style=&quot;margin-left:auto;&quot;&gt;
+            &lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M12 20s-7-4.4-9.5-9A5.5 5.5 0 0 1 12 5.5 5.5 5.5 0 0 1 21.5 11c-2.5 4.6-9.5 9-9.5 9Z&quot;/&gt;&lt;/svg&gt;
+          &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;h2&gt;Butterfly Pea Flower Powder&lt;/h2&gt;
+        &lt;div class=&quot;price&quot; id=&quot;productPrice&quot;&gt;₹398 &lt;span&gt;/ 100g pouch, inclusive of taxes&lt;/span&gt;&lt;/div&gt;
+        &lt;p class=&quot;desc&quot;&gt;Pure, sun-dried and stone-ground butterfly pea flowers in a fine powder form. Stir into hot or cold water, milk, smoothies, rice or batter for a natural indigo-blue colour and a mild, earthy flavour.&lt;/p&gt;
+
+        &lt;div class=&quot;size-row&quot;&gt;
+          &lt;button class=&quot;size-btn&quot; onclick=&quot;selectSize(50, this)&quot;&gt;&lt;span class=&quot;sz&quot;&gt;50g&lt;/span&gt;&lt;span class=&quot;pr&quot;&gt;₹219&lt;/span&gt;&lt;/button&gt;
+          &lt;button class=&quot;size-btn active&quot; onclick=&quot;selectSize(100, this)&quot; id=&quot;sizeDefault&quot;&gt;&lt;span class=&quot;sz&quot;&gt;100g&lt;/span&gt;&lt;span class=&quot;pr&quot;&gt;₹398&lt;/span&gt;&lt;/button&gt;
+          &lt;button class=&quot;size-btn&quot; onclick=&quot;selectSize(250, this)&quot;&gt;&lt;span class=&quot;sz&quot;&gt;250g&lt;/span&gt;&lt;span class=&quot;pr&quot;&gt;₹899&lt;/span&gt;&lt;/button&gt;
+        &lt;/div&gt;
+
+        &lt;ul class=&quot;spec-list&quot;&gt;
+          &lt;li&gt;&lt;span&gt;Net Weight&lt;/span&gt;&lt;span id=&quot;specWeight&quot;&gt;100g&lt;/span&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;span&gt;Form&lt;/span&gt;&lt;span&gt;Fine Powder&lt;/span&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;span&gt;Ingredients&lt;/span&gt;&lt;span&gt;100% Butterfly Pea Flower&lt;/span&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;span&gt;Shelf Life&lt;/span&gt;&lt;span&gt;12 months&lt;/span&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;span&gt;Storage&lt;/span&gt;&lt;span&gt;Cool, dry, airtight&lt;/span&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+
+        &lt;div class=&quot;qty-row&quot;&gt;
+          &lt;div class=&quot;qty-box&quot;&gt;
+            &lt;button onclick=&quot;changeQty(-1)&quot;&gt;−&lt;/button&gt;
+            &lt;span id=&quot;qtyDisplay&quot;&gt;1&lt;/span&gt;
+            &lt;button onclick=&quot;changeQty(1)&quot;&gt;+&lt;/button&gt;
+          &lt;/div&gt;
+          &lt;span id=&quot;qtyTotal&quot; style=&quot;font-family:'Cormorant Garamond',serif; font-size:18px;&quot;&gt;₹398&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;p class=&quot;bulk-hint&quot; id=&quot;bulkHint&quot;&gt;Buy 2, save ₹50 · Buy 3+, save ₹150&lt;/p&gt;
+
+        &lt;div class=&quot;info-line&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;rect x=&quot;3&quot; y=&quot;7&quot; width=&quot;14&quot; height=&quot;11&quot; rx=&quot;1&quot;/&gt;&lt;path d=&quot;M17 10h2.5L21 13v5h-4&quot;/&gt;&lt;circle cx=&quot;7.5&quot; cy=&quot;18.5&quot; r=&quot;1.4&quot;/&gt;&lt;circle cx=&quot;17&quot; cy=&quot;18.5&quot; r=&quot;1.4&quot;/&gt;&lt;/svg&gt;&lt;span&gt;Delivered in 3–5 business days across India.&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;info-line&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M3 12a9 9 0 1 0 3-6.7&quot;/&gt;&lt;path d=&quot;M3 4v5h5&quot;/&gt;&lt;/svg&gt;&lt;span&gt;Not satisfied? Message us within 24 hours of delivery for a replacement.&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;info-line&quot; style=&quot;margin-bottom:18px;&quot;&gt;&lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;rect x=&quot;2&quot; y=&quot;6&quot; width=&quot;20&quot; height=&quot;12&quot; rx=&quot;2&quot;/&gt;&lt;path d=&quot;M2 10h20&quot;/&gt;&lt;/svg&gt;&lt;span&gt;Secure prepaid checkout via UPI — confirmed on WhatsApp.&lt;/span&gt;&lt;/div&gt;
+
+        &lt;div class=&quot;btn-row&quot;&gt;
+          &lt;button class=&quot;cart-add-btn&quot; onclick=&quot;addToCart()&quot;&gt;Add to Cart&lt;/button&gt;
+          &lt;button class=&quot;buy-now-full&quot; onclick=&quot;openModal()&quot;&gt;&lt;span&gt;Buy Now&lt;/span&gt;&lt;span class=&quot;arrow&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- HOT / COLD --&gt;
+&lt;section class=&quot;section hc-section&quot; id=&quot;usage&quot;&gt;
+  &lt;div class=&quot;wrap&quot;&gt;
+    &lt;div class=&quot;section-head reveal&quot;&gt;
+      &lt;div class=&quot;section-eyebrow&quot;&gt;How to Prepare&lt;/div&gt;
+      &lt;h2&gt;Choose hot or cold.&lt;/h2&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;hc-tabs reveal&quot;&gt;
+      &lt;button class=&quot;hc-tab active&quot; id=&quot;tabHot&quot; onclick=&quot;showHC('hot')&quot;&gt;Hot&lt;/button&gt;
+      &lt;button class=&quot;hc-tab&quot; id=&quot;tabCold&quot; onclick=&quot;showHC('cold')&quot;&gt;Cold&lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;hc-panel active&quot; id=&quot;panelHot&quot;&gt;
+      &lt;img src=&quot;https://i.postimg.cc/ht0H31KW/Picsart-25-08-14-12-04-35-022.jpg&quot; alt=&quot;Hot butterfly pea tea&quot;&gt;
+      &lt;div&gt;
+        &lt;h3&gt;Hot Blue Tea&lt;/h3&gt;
+        &lt;p&gt;A warm, calming cup — best in the evening.&lt;/p&gt;
+        &lt;ol class=&quot;hc-steps&quot;&gt;
+          &lt;li&gt;Boil a cup of water and let it sit for 30 seconds off heat.&lt;/li&gt;
+          &lt;li&gt;Add ½ tsp Neel Pushp powder and stir well.&lt;/li&gt;
+          &lt;li&gt;Steep for 3–4 minutes, strain if needed.&lt;/li&gt;
+          &lt;li&gt;Add honey or lemon to taste.&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;hc-panel&quot; id=&quot;panelCold&quot;&gt;
+      &lt;img src=&quot;https://i.postimg.cc/3J4VYH7B/HOT-COLD.png&quot; alt=&quot;Cold butterfly pea cooler&quot;&gt;
+      &lt;div&gt;
+        &lt;h3&gt;Cold Blue Cooler&lt;/h3&gt;
+        &lt;p&gt;A refreshing summer drink, straight over ice.&lt;/p&gt;
+        &lt;ol class=&quot;hc-steps&quot;&gt;
+          &lt;li&gt;Mix ½ tsp powder into 2 tbsp warm water to dissolve fully.&lt;/li&gt;
+          &lt;li&gt;Fill a glass with ice and pour in cold water.&lt;/li&gt;
+          &lt;li&gt;Add the dissolved powder and stir.&lt;/li&gt;
+          &lt;li&gt;Squeeze in lemon to watch it turn violet-pink.&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- TESTIMONIALS --&gt;
+&lt;section class=&quot;section&quot; id=&quot;reviews&quot;&gt;
+  &lt;div class=&quot;wrap&quot;&gt;
+    &lt;div class=&quot;section-head reveal&quot;&gt;
+      &lt;div class=&quot;section-eyebrow&quot;&gt;What Customers Say&lt;/div&gt;
+      &lt;h2&gt;Real cups, real feedback.&lt;/h2&gt;
+      &lt;p&gt;A few notes from early customers — placeholder reviews you can swap for your own as they come in.&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;testi-grid&quot;&gt;
+      &lt;div class=&quot;testi-card reveal&quot;&gt;
+        &lt;div class=&quot;testi-stars&quot;&gt;★★★★★&lt;/div&gt;
+        &lt;p&gt;&quot;The colour change with lemon is such a fun moment — my kids ask for it every evening now.&quot;&lt;/p&gt;
+        &lt;div class=&quot;testi-person&quot;&gt;
+          &lt;div class=&quot;testi-avatar&quot;&gt;A&lt;/div&gt;
+          &lt;div&gt;&lt;span class=&quot;testi-name&quot;&gt;Ananya R.&lt;/span&gt;&lt;span class=&quot;testi-loc&quot;&gt;Hyderabad&lt;/span&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;testi-card reveal&quot;&gt;
+        &lt;div class=&quot;testi-stars&quot;&gt;★★★★★&lt;/div&gt;
+        &lt;p&gt;&quot;Genuinely tastes clean, no strong smell. I use it in rice for festival days and it looks beautiful.&quot;&lt;/p&gt;
+        &lt;div class=&quot;testi-person&quot;&gt;
+          &lt;div class=&quot;testi-avatar&quot;&gt;S&lt;/div&gt;
+          &lt;div&gt;&lt;span class=&quot;testi-name&quot;&gt;Sunil K.&lt;/span&gt;&lt;span class=&quot;testi-loc&quot;&gt;Bengaluru&lt;/span&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;testi-card reveal&quot;&gt;
+        &lt;div class=&quot;testi-stars&quot;&gt;★★★★★&lt;/div&gt;
+        &lt;p&gt;&quot;Ordered on WhatsApp, it was simple and quick. The tea is calming, I have it most nights now.&quot;&lt;/p&gt;
+        &lt;div class=&quot;testi-person&quot;&gt;
+          &lt;div class=&quot;testi-avatar&quot;&gt;P&lt;/div&gt;
+          &lt;div&gt;&lt;span class=&quot;testi-name&quot;&gt;Priya M.&lt;/span&gt;&lt;span class=&quot;testi-loc&quot;&gt;Chennai&lt;/span&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- FAQ --&gt;
+&lt;section class=&quot;section faq-section&quot; id=&quot;faq&quot;&gt;
+  &lt;div class=&quot;wrap&quot;&gt;
+    &lt;div class=&quot;section-head reveal&quot;&gt;
+      &lt;div class=&quot;section-eyebrow&quot;&gt;FAQ&lt;/div&gt;
+      &lt;h2&gt;Good to know.&lt;/h2&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;faq-list reveal&quot;&gt;
+      &lt;div class=&quot;faq-item&quot;&gt;
+        &lt;button class=&quot;faq-q&quot; onclick=&quot;toggleFaq(this)&quot;&gt;Is this a real flower powder or an artificial colour?&lt;span class=&quot;plus&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+        &lt;div class=&quot;faq-a&quot;&gt;&lt;p&gt;It's 100% dried and ground butterfly pea flower — no synthetic dye, filler or added colour of any kind.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;faq-item&quot;&gt;
+        &lt;button class=&quot;faq-q&quot; onclick=&quot;toggleFaq(this)&quot;&gt;Does it have a strong flavour?&lt;span class=&quot;plus&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+        &lt;div class=&quot;faq-a&quot;&gt;&lt;p&gt;No — it has a very mild, slightly earthy taste, so it works well in tea, milk, rice and batters without overpowering other flavours.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;faq-item&quot;&gt;
+        &lt;button class=&quot;faq-q&quot; onclick=&quot;toggleFaq(this)&quot;&gt;Why does it turn pink with lemon?&lt;span class=&quot;plus&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+        &lt;div class=&quot;faq-a&quot;&gt;&lt;p&gt;The anthocyanin pigment in butterfly pea is sensitive to acidity. Adding lemon lowers the pH, which shifts the colour from blue to violet-pink — a natural reaction, not a trick.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;faq-item&quot;&gt;
+        &lt;button class=&quot;faq-q&quot; onclick=&quot;toggleFaq(this)&quot;&gt;How should I store it?&lt;span class=&quot;plus&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+        &lt;div class=&quot;faq-a&quot;&gt;&lt;p&gt;Keep it in a cool, dry place in an airtight container, away from direct sunlight. It stays good for 12 months from packing.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;faq-item&quot;&gt;
+        &lt;button class=&quot;faq-q&quot; onclick=&quot;toggleFaq(this)&quot;&gt;How do I place an order?&lt;span class=&quot;plus&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+        &lt;div class=&quot;faq-a&quot;&gt;&lt;p&gt;Tap &quot;Buy Now&quot; or &quot;Add to Cart&quot; anywhere on the site, fill in your name, phone and address, and confirm — your order is sent directly to our WhatsApp at +91 93813 01709.&lt;/p&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- CTA --&gt;
+&lt;section class=&quot;cta-strip&quot;&gt;
+  &lt;div class=&quot;wrap&quot;&gt;
+    &lt;h2 class=&quot;reveal&quot;&gt;₹398 for 100g of pure indigo.&lt;/h2&gt;
+    &lt;p class=&quot;reveal&quot;&gt;Order now — confirm your details and we'll take it from there on WhatsApp.&lt;/p&gt;
+    &lt;button class=&quot;buy-now-btn outline reveal&quot; style=&quot;color:#fff; border-color:#fff;&quot; onclick=&quot;openModal()&quot;&gt;Buy Now&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;!-- FOOTER --&gt;
+&lt;footer&gt;
+  &lt;div class=&quot;wrap&quot;&gt;
+    &lt;div class=&quot;footer-grid&quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;brand&quot;&gt;Neel Pushp&lt;/div&gt;
+        &lt;p class=&quot;tag&quot;&gt;Pure Butterfly Pea Flower Powder, sun-dried and stone-milled for natural colour, calm, and taste.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h5&gt;Explore&lt;/h5&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;Story&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#science&quot;&gt;Benefits&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#product&quot;&gt;Product&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h5&gt;Shop&lt;/h5&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#usage&quot;&gt;Hot / Cold&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#reviews&quot;&gt;Reviews&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#faq&quot;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h5&gt;Contact&lt;/h5&gt;
+        &lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://wa.me/919381301709&quot; target=&quot;_blank&quot;&gt;WhatsApp +91 93813 01709&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;footer-bottom&quot;&gt;
+      &lt;span&gt;© 2026 Neel Pushp. All rights reserved.&lt;/span&gt;
+      &lt;span&gt;Made with real petals.&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;!-- ORDER MODAL --&gt;
+&lt;div class=&quot;modal-overlay&quot; id=&quot;modalOverlay&quot;&gt;
+  &lt;div class=&quot;modal-box&quot;&gt;
+    &lt;button class=&quot;modal-close&quot; onclick=&quot;closeModal()&quot;&gt;&lt;/button&gt;
+    &lt;div class=&quot;section-eyebrow&quot;&gt;Complete Your Order&lt;/div&gt;
+    &lt;h3&gt;Customer Details&lt;/h3&gt;
+    &lt;p class=&quot;sub&quot;&gt;Fill this in, then confirm — your order goes straight to our WhatsApp.&lt;/p&gt;
+
+    &lt;div class=&quot;field&quot;&gt;&lt;label&gt;Full Name *&lt;/label&gt;&lt;input type=&quot;text&quot; id=&quot;custName&quot; placeholder=&quot;Your full name&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;&lt;label&gt;Phone Number *&lt;/label&gt;&lt;input type=&quot;tel&quot; id=&quot;custPhone&quot; placeholder=&quot;10-digit mobile number&quot;&gt;&lt;/div&gt;
+
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;Pincode *&lt;/label&gt;
+      &lt;input type=&quot;text&quot; id=&quot;custPincode&quot; placeholder=&quot;6-digit PIN code&quot; maxlength=&quot;6&quot; inputmode=&quot;numeric&quot; oninput=&quot;handlePincode()&quot;&gt;
+      &lt;div class=&quot;pincode-status&quot; id=&quot;pincodeStatus&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;field-row&quot;&gt;
+      &lt;div class=&quot;field readonly&quot;&gt;&lt;label&gt;City / Area&lt;/label&gt;&lt;input type=&quot;text&quot; id=&quot;custCity&quot; placeholder=&quot;Auto-filled&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;field readonly&quot;&gt;&lt;label&gt;District&lt;/label&gt;&lt;input type=&quot;text&quot; id=&quot;custDistrict&quot; placeholder=&quot;Auto-filled&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;field readonly&quot;&gt;&lt;label&gt;State&lt;/label&gt;&lt;input type=&quot;text&quot; id=&quot;custState&quot; placeholder=&quot;Auto-filled&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;&lt;label&gt;House No, Street, Landmark *&lt;/label&gt;&lt;textarea id=&quot;custHouse&quot; placeholder=&quot;e.g. House no. 12, MG Road, Near Bus Stand&quot;&gt;&lt;/textarea&gt;&lt;/div&gt;
+
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;Pack Size&lt;/label&gt;
+      &lt;select id=&quot;formSize&quot; onchange=&quot;updateSummary()&quot;&gt;
+        &lt;option value=&quot;50&quot;&gt;50g — ₹219&lt;/option&gt;
+        &lt;option value=&quot;100&quot; selected&gt;100g — ₹398&lt;/option&gt;
+        &lt;option value=&quot;250&quot;&gt;250g — ₹899&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;Quantity&lt;/label&gt;
+      &lt;select id=&quot;formQty&quot; onchange=&quot;updateSummary()&quot;&gt;
+        &lt;option value=&quot;1&quot;&gt;1 pouch&lt;/option&gt;
+        &lt;option value=&quot;2&quot;&gt;2 pouches&lt;/option&gt;
+        &lt;option value=&quot;3&quot;&gt;3 pouches&lt;/option&gt;
+        &lt;option value=&quot;5&quot;&gt;5 pouches&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;
+      &lt;label&gt;Payment Method&lt;/label&gt;
+      &lt;div class=&quot;pay-row&quot;&gt;
+        &lt;div class=&quot;pay-option active&quot;&gt;Prepaid via UPI&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;field&quot;&gt;&lt;label&gt;Note (optional)&lt;/label&gt;&lt;textarea id=&quot;custNote&quot; placeholder=&quot;Any preference or delivery instruction&quot;&gt;&lt;/textarea&gt;&lt;/div&gt;
+
+    &lt;p class=&quot;required-hint&quot; id=&quot;reqHint&quot;&gt;Please fill in Name, Phone, a valid 6-digit Pincode, and House No/Street.&lt;/p&gt;
+
+    &lt;div class=&quot;modal-summary&quot;&gt;&lt;span&gt;Total&lt;/span&gt;&lt;b id=&quot;summaryTotal&quot;&gt;₹398&lt;/b&gt;&lt;/div&gt;
+    &lt;button class=&quot;buy-now-full&quot; style=&quot;width:100%;&quot; onclick=&quot;sendToWhatsApp()&quot;&gt;&lt;span&gt;Confirm &amp; Send to WhatsApp&lt;/span&gt;&lt;span class=&quot;arrow&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+    &lt;p style=&quot;font-size:11.5px; color:var(--grey); margin-top:12px; text-align:center;&quot;&gt;You'll receive order and delivery updates directly on WhatsApp.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- CART MODAL --&gt;
+&lt;div class=&quot;modal-overlay&quot; id=&quot;cartOverlay&quot;&gt;
+  &lt;div class=&quot;modal-box&quot;&gt;
+    &lt;button class=&quot;modal-close&quot; onclick=&quot;closeCart()&quot;&gt;&lt;/button&gt;
+    &lt;div class=&quot;section-eyebrow&quot;&gt;Your Cart&lt;/div&gt;
+    &lt;h3&gt;Neel Pushp&lt;/h3&gt;
+    &lt;div id=&quot;cartBody&quot;&gt;&lt;p class=&quot;cart-empty&quot;&gt;Your cart is empty. Add the powder to get started.&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;modal-summary&quot;&gt;&lt;span&gt;Total&lt;/span&gt;&lt;b id=&quot;cartTotal&quot;&gt;₹0&lt;/b&gt;&lt;/div&gt;
+    &lt;button class=&quot;buy-now-full&quot; style=&quot;width:100%;&quot; onclick=&quot;checkoutFromCart()&quot;&gt;&lt;span&gt;Checkout on WhatsApp&lt;/span&gt;&lt;span class=&quot;arrow&quot;&gt;&lt;/span&gt;&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- STICKY MOBILE BUY BAR --&gt;
+&lt;div class=&quot;sticky-bar&quot; id=&quot;stickyBar&quot;&gt;
+  &lt;div class=&quot;sb-price&quot;&gt;₹398&lt;span id=&quot;stickyLabel&quot;&gt;100g pouch&lt;/span&gt;&lt;/div&gt;
+  &lt;button class=&quot;buy-now-btn&quot; onclick=&quot;openModal()&quot;&gt;Buy Now&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!-- FLOATING WHATSAPP — GENERAL QUESTIONS --&gt;
+&lt;a class=&quot;wa-float&quot; href=&quot;https://wa.me/919381301709?text=Hi%20Neel%20Pushp%2C%20I%20have%20a%20question%20about%20the%20Butterfly%20Pea%20Flower%20Powder.&quot; target=&quot;_blank&quot; aria-label=&quot;Chat with us on WhatsApp&quot;&gt;
+  &lt;svg viewBox=&quot;0 0 24 24&quot;&gt;&lt;path d=&quot;M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8.9-.2.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.5s-.6-1.4-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-1 1-1 2.3s1 2.7 1.1 2.9c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3Z&quot; fill=&quot;#fff&quot; stroke=&quot;none&quot;/&gt;&lt;/svg&gt;
+&lt;/a&gt;
+
+&lt;!-- TOAST --&gt;
+&lt;div class=&quot;toast&quot; id=&quot;toast&quot;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+  const SIZE_PRICES = {50:219, 100:398, 250:899};
+  let selectedSize = 100;
+  let heroQty = 1;
+  let cartQty = 0;
+  let cartSize = 100;
+  let wishlisted = false;
+
+  /* scroll reveal */
+  const revealEls = document.querySelectorAll('.reveal, .reveal-l, .reveal-r');
+  const io = new IntersectionObserver((entries) =&gt; {
+    entries.forEach(e =&gt; { if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, {threshold:0.15});
+  revealEls.forEach(el =&gt; io.observe(el));
+
+  /* generic drag-enabled carousel factory */
+  function makeCarousel({track, viewport, dotsEl, slideCount, onChange, autoplay}){
+    let index = 0;
+    let startX = 0, currentX = 0, dragging = false, viewportWidth = 0;
+
+    if(dotsEl){
+      dotsEl.innerHTML = '';
+      for(let i = 0; i &lt; slideCount; i++){
+        const dot = document.createElement('button');
+        dot.className = 'pc-dot bc-dot' + (i === 0 ? ' active' : '');
+        dot.setAttribute('aria-label', 'Go to slide ' + (i+1));
+        dot.onclick = () =&gt; goTo(i);
+        dotsEl.appendChild(dot);
+      }
+    }
+
+    function render(){
+      track.style.transform = 'translateX(-' + (index * 100) + '%)';
+      if(dotsEl){
+        dotsEl.querySelectorAll('button').forEach((d, i) =&gt; d.classList.toggle('active', i === index));
+      }
+      if(onChange) onChange(index);
+    }
+
+    function goTo(i){
+      index = (i + slideCount) % slideCount;
+      render();
+    }
+    function next(){ goTo(index + 1); }
+    function prev(){ goTo(index - 1); }
+
+    function getX(e){ return (e.touches ? e.touches[0].clientX : e.clientX); }
+
+    track.addEventListener('touchstart', (e) =&gt; { dragging = true; startX = getX(e); viewportWidth = viewport.offsetWidth; track.classList.add('dragging'); }, {passive:true});
+    track.addEventListener('touchmove', (e) =&gt; {
+      if(!dragging) return;
+      currentX = getX(e) - startX;
+      track.style.transform = 'translateX(calc(-' + (index * 100) + '% + ' + currentX + 'px))';
+    }, {passive:true});
+    track.addEventListener('touchend', () =&gt; {
+      if(!dragging) return;
+      dragging = false;
+      track.classList.remove('dragging');
+      if(currentX &lt; -50) next();
+      else if(currentX &gt; 50) prev();
+      else render();
+      currentX = 0;
+    });
+
+    track.addEventListener('mousedown', (e) =&gt; { dragging = true; startX = getX(e); viewportWidth = viewport.offsetWidth; track.classList.add('dragging'); e.preventDefault(); });
+    track.addEventListener('mousemove', (e) =&gt; {
+      if(!dragging) return;
+      currentX = getX(e) - startX;
+      track.style.transform = 'translateX(calc(-' + (index * 100) + '% + ' + currentX + 'px))';
+    });
+    track.addEventListener('mouseup', () =&gt; {
+      if(!dragging) return;
+      dragging = false;
+      track.classList.remove('dragging');
+      if(currentX &lt; -50) next();
+      else if(currentX &gt; 50) prev();
+      else render();
+      currentX = 0;
+    });
+    track.addEventListener('mouseleave', () =&gt; {
+      if(!dragging) return;
+      dragging = false;
+      track.classList.remove('dragging');
+      render();
+      currentX = 0;
+    });
+
+    let timer = null;
+    if(autoplay){
+      const wrap = viewport.closest('.benefit-carousel') || viewport;
+      timer = setInterval(next, 3200);
+      wrap.addEventListener('mouseenter', () =&gt; clearInterval(timer));
+      wrap.addEventListener('mouseleave', () =&gt; { timer = setInterval(next, 3200); });
+      wrap.addEventListener('touchstart', () =&gt; clearInterval(timer), {passive:true});
+    }
+
+    render();
+    return {goTo, next, prev};
+  }
+
+  const benefitCarousel = makeCarousel({
+    track: document.getElementById('benefitTrack'),
+    viewport: document.getElementById('benefitViewport'),
+    dotsEl: document.getElementById('benefitDots'),
+    slideCount: document.querySelectorAll('#benefitTrack .bc-slide').length,
+    autoplay: true
+  });
+  function benefitNext(){ benefitCarousel.next(); }
+  function benefitPrev(){ benefitCarousel.prev(); }
+
+  const productCarousel = makeCarousel({
+    track: document.getElementById('productTrack'),
+    viewport: document.getElementById('productViewport'),
+    dotsEl: document.getElementById('productDots'),
+    slideCount: document.querySelectorAll('#productTrack img').length,
+    onChange: (i) =&gt; {
+      document.querySelectorAll('.gallery-strip img').forEach((img, idx) =&gt; img.classList.toggle('active', idx === i));
+    }
+  });
+  function productNext(){ productCarousel.next(); }
+  function productPrev(){ productCarousel.prev(); }
+  function goToProduct(i){ productCarousel.goTo(i); }
+
+  /* size + quantity on product section */
+  function selectSize(size, btn){
+    selectedSize = size;
+    document.querySelectorAll('.size-row .size-btn').forEach(b =&gt; b.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('specWeight').textContent = size + 'g';
+    document.getElementById('productPrice').innerHTML = '₹' + SIZE_PRICES[size] + ' &lt;span&gt;/ ' + size + 'g pouch, inclusive of taxes&lt;/span&gt;';
+    updateHeroTotal();
+  }
+
+  function updateHeroTotal(){
+    const unit = SIZE_PRICES[selectedSize];
+    document.getElementById('qtyDisplay').textContent = heroQty;
+    document.getElementById('qtyTotal').textContent = '₹' + (heroQty * unit);
+    const hint = document.getElementById('bulkHint');
+    if(heroQty &gt;= 3){ hint.textContent = 'Bulk pricing applied — save ₹150 on 3+ pouches.'; }
+    else if(heroQty === 2){ hint.textContent = 'Buy 2, save ₹50 · Buy 3+, save ₹150'; }
+    else { hint.textContent = 'Buy 2, save ₹50 · Buy 3+, save ₹150'; }
+    document.getElementById('stickyLabel').textContent = selectedSize + 'g pouch';
+    document.querySelector('.sticky-bar .sb-price').childNodes[0].textContent = '₹' + unit;
+  }
+
+  function changeQty(delta){
+    heroQty = Math.max(1, heroQty + delta);
+    updateHeroTotal();
+  }
+
+  /* hot/cold tabs */
+  function showHC(which){
+    document.getElementById('panelHot').classList.toggle('active', which === 'hot');
+    document.getElementById('panelCold').classList.toggle('active', which === 'cold');
+    document.getElementById('tabHot').classList.toggle('active', which === 'hot');
+    document.getElementById('tabCold').classList.toggle('active', which === 'cold');
+  }
+  /* faq accordion */
+  function toggleFaq(btn){
+    const item = btn.parentElement;
+    const answer = item.querySelector('.faq-a');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i =&gt; {
+      i.classList.remove('open');
+      i.querySelector('.faq-a').style.maxHeight = null;
+    });
+    if(!isOpen){
+      item.classList.add('open');
+      answer.style.maxHeight = answer.scrollHeight + 'px';
+    }
+  }
+
+  /* cart */
+  function addToCart(){
+    if(cartQty &gt; 0 &amp;&amp; cartSize !== selectedSize){
+      cartQty = heroQty;
+      cartSize = selectedSize;
+    } else {
+      cartQty += heroQty;
+      cartSize = selectedSize;
+    }
+    document.getElementById('cartBadge').textContent = cartQty;
+    renderCart();
+    const btn = event.currentTarget;
+    const original = btn.textContent;
+    btn.textContent = 'Added ✓';
+    setTimeout(() =&gt; { btn.textContent = original; }, 1200);
+    showToast('Added to cart');
+  }
+
+  function renderCart(){
+    const body = document.getElementById('cartBody');
+    const totalEl = document.getElementById('cartTotal');
+    if(cartQty &lt;= 0){
+      body.innerHTML = '&lt;p class=&quot;cart-empty&quot;&gt;Your cart is empty. Add the powder to get started.&lt;/p&gt;';
+      totalEl.textContent = '₹0';
+      return;
+    }
+    const unit = SIZE_PRICES[cartSize];
+    body.innerHTML = `
+      &lt;div class=&quot;cart-line&quot;&gt;
+        &lt;span&gt;Butterfly Pea Powder (${cartSize}g) × ${cartQty}&lt;/span&gt;
+        &lt;span&gt;₹${cartQty * unit}&lt;/span&gt;
+      &lt;/div&gt;`;
+    totalEl.textContent = '₹' + (cartQty * unit);
+  }
+
+  function openCart(){
+    renderCart();
+    document.getElementById('cartOverlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeCart(){
+    document.getElementById('cartOverlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  function checkoutFromCart(){
+    if(cartQty &lt;= 0) return;
+    closeCart();
+    openModal();
+    document.getElementById('formSize').value = cartSize;
+    const opts = [1,2,3,5];
+    const closest = opts.reduce((a,b) =&gt; Math.abs(b-cartQty) &lt; Math.abs(a-cartQty) ? b : a);
+    document.getElementById('formQty').value = closest;
+    updateSummary();
+  }
+
+  /* order modal */
+  function openModal(){
+    document.getElementById('formSize').value = selectedSize;
+    document.getElementById('formQty').value = [1,2,3,5].includes(heroQty) ? heroQty : 1;
+    updateSummary();
+    document.getElementById('modalOverlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal(){
+    document.getElementById('modalOverlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.getElementById('modalOverlay').addEventListener('click', function(e){ if(e.target === this) closeModal(); });
+  document.getElementById('cartOverlay').addEventListener('click', function(e){ if(e.target === this) closeCart(); });
+
+  function updateSummary(){
+    const qty = parseInt(document.getElementById('formQty').value, 10);
+    const size = parseInt(document.getElementById('formSize').value, 10);
+    document.getElementById('summaryTotal').textContent = '₹' + (qty * SIZE_PRICES[size]);
+  }
+
+  /* wishlist */
+  function toggleWishlist(){
+    wishlisted = !wishlisted;
+    document.querySelectorAll('.icon-btn.wishlist').forEach(b =&gt; b.classList.toggle('active', wishlisted));
+    showToast(wishlisted ? 'Saved to wishlist' : 'Removed from wishlist');
+  }
+
+  /* toast */
+  let toastTimer = null;
+  function showToast(msg){
+    const toast = document.getElementById('toast');
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() =&gt; toast.classList.remove('show'), 2000);
+  }
+
+  /* sticky mobile buy bar */
+  const heroEl = document.getElementById('home');
+  const stickyBar = document.getElementById('stickyBar');
+  if(heroEl &amp;&amp; stickyBar){
+    const heroIO = new IntersectionObserver((entries) =&gt; {
+      entries.forEach(e =&gt; { stickyBar.classList.toggle('show', !e.isIntersecting &amp;&amp; window.innerWidth &lt;= 900); });
+    }, {threshold:0});
+    heroIO.observe(heroEl);
+  }
+
+  /* pincode auto-fill (India Post public API) */
+  let pincodeTimer = null;
+  function handlePincode(){
+    const input = document.getElementById('custPincode');
+    input.value = input.value.replace(/\D/g, '').slice(0, 6);
+    const status = document.getElementById('pincodeStatus');
+    const cityEl = document.getElementById('custCity');
+    const districtEl = document.getElementById('custDistrict');
+    const stateEl = document.getElementById('custState');
+
+    clearTimeout(pincodeTimer);
+    cityEl.value = ''; districtEl.value = ''; stateEl.value = '';
+    status.textContent = ''; status.className = 'pincode-status';
+
+    if(input.value.length !== 6) return;
+
+    status.textContent = 'Looking up pincode...';
+    pincodeTimer = setTimeout(async () =&gt; {
+      try{
+        const res = await fetch('https://api.postalpincode.in/pincode/' + input.value);
+        const data = await res.json();
+        const record = data &amp;&amp; data[0];
+        if(record &amp;&amp; record.Status === 'Success' &amp;&amp; record.PostOffice &amp;&amp; record.PostOffice.length){
+          const po = record.PostOffice[0];
+          cityEl.value = po.Name || '';
+          districtEl.value = po.District || '';
+          stateEl.value = po.State || '';
+          status.textContent = 'Location found';
+          status.className = 'pincode-status ok';
+        } else {
+          status.textContent = 'Pincode not found — please check and re-enter';
+          status.className = 'pincode-status err';
+        }
+      } catch(err){
+        status.textContent = 'Could not verify pincode — you can continue anyway';
+        status.className = 'pincode-status err';
+      }
+    }, 400);
+  }
+
+  function sendToWhatsApp(){
+    const name = document.getElementById('custName').value.trim();
+    const phone = document.getElementById('custPhone').value.trim();
+    const pincode = document.getElementById('custPincode').value.trim();
+    const city = document.getElementById('custCity').value.trim();
+    const district = document.getElementById('custDistrict').value.trim();
+    const state = document.getElementById('custState').value.trim();
+    const house = document.getElementById('custHouse').value.trim();
+    const note = document.getElementById('custNote').value.trim();
+    const qty = parseInt(document.getElementById('formQty').value, 10);
+    const size = parseInt(document.getElementById('formSize').value, 10);
+    const unit = SIZE_PRICES[size];
+    let total = qty * unit;
+    let discountNote = '';
+    if(qty &gt;= 3){ total -= 150; discountNote = ' (bulk discount ₹150 applied)'; }
+    else if(qty === 2){ total -= 50; discountNote = ' (bulk discount ₹50 applied)'; }
+    const hint = document.getElementById('reqHint');
+
+    if(!name || !phone || !pincode || pincode.length !== 6 || !house){
+      hint.style.display = 'block';
+      return;
+    }
+    hint.style.display = 'none';
+
+    const addressParts = [house, city, district, state, pincode].filter(Boolean).join(', ');
+    const paymentLabel = 'Prepaid via UPI';
+
+    let message = &quot;Hello Neel Pushp, I would like to place an order:%0A%0A&quot;;
+    message += &quot;*Product:* Butterfly Pea Flower Powder (&quot; + size + &quot;g pouch)%0A&quot;;
+    message += &quot;*Quantity:* &quot; + qty + &quot; pouch(es)%0A&quot;;
+    message += &quot;*Total:* ₹&quot; + total + discountNote + &quot;%0A&quot;;
+    message += &quot;*Payment:* &quot; + paymentLabel + &quot;%0A%0A&quot;;
+    message += &quot;*Name:* &quot; + encodeURIComponent(name) + &quot;%0A&quot;;
+    message += &quot;*Phone:* &quot; + encodeURIComponent(phone) + &quot;%0A&quot;;
+    message += &quot;*Address:* &quot; + encodeURIComponent(addressParts) + &quot;%0A&quot;;
+    if(note){ message += &quot;*Note:* &quot; + encodeURIComponent(note) + &quot;%0A&quot;; }
+
+    window.open(&quot;https://wa.me/919381301709?text=&quot; + message, &quot;_blank&quot;);
+  }
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</body>
+</html>
